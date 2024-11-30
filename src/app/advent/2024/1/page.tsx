@@ -12,6 +12,10 @@ const cormorantGaramond = Cormorant_Garamond({
   variable: "--font-cormorant-garamond",
 });
 
+export const metadata = {
+  title: "1. Dezember",
+};
+
 export default function Day1() {
   return (
     <div
