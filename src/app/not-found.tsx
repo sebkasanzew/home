@@ -21,7 +21,7 @@ export default function NotFound() {
     if (isAdvent2024) {
       push(`/advent/2024/${day}`);
     }
-  }, []);
+  }, [day, isAdvent2024, isAfterChristmas2024, push]);
 
   return null;
 }

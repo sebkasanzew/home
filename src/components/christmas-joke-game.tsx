@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { TreePine, Gift, Snowflake } from "lucide-react";
+import { TreePine, Gift } from "lucide-react";
 
 const christmasJokes = [
   {
