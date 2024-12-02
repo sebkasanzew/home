@@ -54,26 +54,26 @@ function Header() {
 
   return (
     <nav>
-      <div className="relative">
+      <div className="inline-flex items-center justify-center w-full mb-4">
         {pageDay !== "1" && (
           <button
-            className="absolute top-0 bottom-0 left-10  p-4 text-red-800"
+            className="p-4 text-red-800"
             onClick={() => push(`/advent/2024/${(+pageDay - 1).toString()}`)}
           >
-            <TbArrowBigLeftLinesFilled className="size-10 hover:text-red-600 hover:scale-110" />
+            <TbArrowBigLeftLinesFilled className="size-6 md:size-10 hover:text-red-600 hover:scale-110" />
           </button>
         )}
 
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 sm:mb-6 font-cinzel-decorative text-red-800 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center font-cinzel-decorative text-red-800 leading-tight">
           {pageDay}. Dezember
         </h1>
 
         {pageDay !== "24" && (isPageForToday || isAfterChristmas2024) && (
           <button
-            className="absolute top-0 bottom-0 right-10 p-4 text-red-800"
+            className="p-4 text-red-800"
             onClick={() => push(`/advent/2024/${(+pageDay + 1).toString()}`)}
           >
-            <TbArrowBigLeftLinesFilled className="size-10 hover:text-red-600 hover:scale-110 rotate-180" />
+            <TbArrowBigLeftLinesFilled className="size-6 md:size-10 hover:text-red-600 hover:scale-110 rotate-180" />
           </button>
         )}
       </div>
