@@ -25,7 +25,7 @@ export default function Container(props: Props) {
   }
 
   return (
-    <div className="min-h-screen w-full px-4 bg-gray-100 py-8">
+    <div className="min-h-screen w-full px-4 py-8">
       <div className="mx-auto max-w-3xl">{children}</div>
     </div>
   );

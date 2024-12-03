@@ -7,7 +7,7 @@ export default function RootLayout(props: Props) {
 
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body style={{ backgroundColor: "rgb(243 244 246)" }}>{children}</body>
     </html>
   );
 }
