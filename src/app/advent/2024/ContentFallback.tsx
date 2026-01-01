@@ -14,6 +14,7 @@ export default function ContentFallback() {
   return (
     <div className="flex flex-col items-center gap-6">
       <button
+        type="button"
         onClick={async () => {
           setLoading(true);
           const { text } = await getAnswer(

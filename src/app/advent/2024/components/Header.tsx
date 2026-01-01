@@ -57,6 +57,7 @@ function Header() {
       <div className="inline-flex items-center justify-center w-full mb-4">
         {pageDay !== "1" && (
           <button
+            type="button"
             className="p-4 text-red-800"
             onClick={() => push(`/advent/2024/${(+pageDay - 1).toString()}`)}
           >
@@ -70,6 +71,7 @@ function Header() {
 
         {pageDay !== "24" && (isPageForToday || isAfterChristmas2024) && (
           <button
+            type="button"
             className="p-4 text-red-800"
             onClick={() => push(`/advent/2024/${(+pageDay + 1).toString()}`)}
           >
