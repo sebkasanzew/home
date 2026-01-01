@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "pnpm exec playwright test"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "1.0.4",
