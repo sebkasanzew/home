@@ -28,7 +28,7 @@ export default function RootLayout(props: Props) {
 
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-geist-sans)]`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased font-(family-name:--font-geist-sans)`}
     >
       {children}
     </div>
