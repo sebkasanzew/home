@@ -3,6 +3,8 @@
   "extends": [
     "config:recommended"
   ],
+  "rebaseWhen": "conflicted",
+  "keepUpdatedLabel": "keep-updated",
   "automerge": true,
   "packageRules": [
     {
