@@ -18,8 +18,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: process.env.CI ? 'pnpm build && MOCK_API=true pnpm start' : 'MOCK_API=true pnpm dev',
+    command: 'NEXT_PUBLIC_MOCK_API=true pnpm build && NEXT_PUBLIC_MOCK_API=true pnpm start',
     url: 'http://localhost:3000/advent/2024/1',
     reuseExistingServer: !process.env.CI,
+    timeout: 120000,
   },
 });

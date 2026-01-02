@@ -8,6 +8,7 @@ type Props = Readonly<{
 }>;
 
 const isDev = process.env.NODE_ENV === "development";
+const isMockApi = process.env.NEXT_PUBLIC_MOCK_API === "true";
 
 export default function Container(props: Props) {
   const { children } = props;
@@ -18,7 +19,7 @@ export default function Container(props: Props) {
   const pageDay = pathname.split("/").pop();
   const { day } = useAdventFlags();
 
-  if (!isDev && pageDay && day && +pageDay > +day) {
+  if (!isDev && !isMockApi && pageDay && day && +pageDay > +day) {
     push("/advent/2024");
 
     return null;
