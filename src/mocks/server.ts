@@ -1,4 +1,7 @@
-import { setupServer } from 'msw/node';
-import { handlers } from './handlers';
+export async function makeServer() {
+  const { setupServer } = await import('msw/node');
+  const { createHandlers } = await import('./handlers');
+  const handlers = await createHandlers();
 
-export const server = setupServer(...handlers);
+  return setupServer(...handlers);
+}

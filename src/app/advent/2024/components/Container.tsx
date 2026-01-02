@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useAdventFlags } from "./useAdventFlags";
+import { useEffect } from "react";
 
 type Props = Readonly<{
   children: React.ReactNode;
@@ -16,14 +17,14 @@ export default function Container(props: Props) {
   const pathname = usePathname();
   const { push } = useRouter();
 
-  const pageDay = pathname.split("/").pop();
   const { day } = useAdventFlags();
 
-  if (!isDev && !isMockApi && pageDay && day && +pageDay > +day) {
-    push("/advent/2024");
-
-    return null;
-  }
+  useEffect(() => {
+    const p = typeof window === "undefined" ? null : pathname?.split("/").pop() ?? null;
+    if (!isDev && !isMockApi && p && day && +p > +day) {
+      push("/advent/2024");
+    }
+  }, [pathname, day, push]);
 
   return (
     <div className="min-h-screen w-full px-4 py-8">
