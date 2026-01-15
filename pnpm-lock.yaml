@@ -12,8 +12,8 @@ importers:
         specifier: 3.0.14
         version: 3.0.14(zod@4.3.5)
       '@ai-sdk/openai':
-        specifier: 3.0.10
-        version: 3.0.10(zod@4.3.5)
+        specifier: 3.0.11
+        version: 3.0.11(zod@4.3.5)
       '@radix-ui/react-slot':
         specifier: 1.2.4
         version: 1.2.4(@types/react@19.2.8)(react@19.2.3)
@@ -123,8 +123,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/openai@3.0.10':
-    resolution: {integrity: sha512-G6HJORN0rKuCFrqIUiYchjl2b4UjzKvv3VcNuW7xwQIdI8EcdB9Pr8ZaR9nEImK9E639nM8gCfvFEUM1xwGaCA==}
+  '@ai-sdk/openai@3.0.11':
+    resolution: {integrity: sha512-nX7Egt9EJtvImiq1D88sZCOlfAIJgKJGa987ptp40hJRp7CQ4snBLnEHt344m2tqB0LIpzdc53l02o+LlYsM2A==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2320,10 +2320,10 @@ snapshots:
       '@vercel/oidc': 3.1.0
       zod: 4.3.5
 
-  '@ai-sdk/openai@3.0.10(zod@4.3.5)':
+  '@ai-sdk/openai@3.0.11(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.3
-      '@ai-sdk/provider-utils': 4.0.6(zod@4.3.5)
+      '@ai-sdk/provider-utils': 4.0.7(zod@4.3.5)
       zod: 4.3.5
 
   '@ai-sdk/provider-utils@4.0.6(zod@4.3.5)':
