@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.3",
-    "@eslint/js": "9.39.2",
+    "@eslint/js": "10.0.1",
     "@playwright/test": "1.58.2",
     "@tailwindcss/postcss": "4.1.18",
     "@tailwindcss/typography": "0.5.19",
@@ -39,7 +39,7 @@
     "@types/node": "24.10.11",
     "@types/react": "19.2.13",
     "@types/react-dom": "19.2.3",
-    "eslint": "9.39.2",
+    "eslint": "10.0.0",
     "eslint-config-next": "16.1.6",
     "msw": "2.12.9",
     "postcss": "8.5.6",
