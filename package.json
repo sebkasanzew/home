@@ -12,7 +12,7 @@
   "dependencies": {
     "@ai-sdk/anthropic": "3.0.128",
     "@ai-sdk/openai": "3.0.124",
-    "@radix-ui/react-slot": "1.2.4",
+    "@radix-ui/react-slot": "1.4.0",
     "@uploadthing/react": "7.3.3",
     "ai": "6.0.302",
     "class-variance-authority": "0.7.1",
