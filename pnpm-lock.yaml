@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@ai-sdk/anthropic':
         specifier: 3.0.128
-        version: 3.0.128(zod@4.4.3)
+        version: 3.0.128(zod@4.6.5)
       '@ai-sdk/openai':
         specifier: 3.0.124
-        version: 3.0.124(zod@4.4.3)
+        version: 3.0.124(zod@4.6.5)
       '@radix-ui/react-slot':
         specifier: 1.4.0
         version: 1.4.0(@types/react@19.2.15)(react@19.2.6)
@@ -22,7 +22,7 @@ importers:
         version: 7.3.3(next@16.4.0(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(@playwright/test@1.64.0)(@types/node@24.19.1)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react@19.2.6)(uploadthing@7.7.4(next@16.4.0(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(@playwright/test@1.64.0)(@types/node@24.19.1)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(tailwindcss@4.3.3))
       ai:
         specifier: 6.0.302
-        version: 6.0.302(zod@4.4.3)
+        version: 6.0.302(zod@4.6.5)
       class-variance-authority:
         specifier: 0.7.1
         version: 0.7.1
@@ -60,8 +60,8 @@ importers:
         specifier: 7.7.4
         version: 7.7.4(next@16.4.0(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(@playwright/test@1.64.0)(@types/node@24.19.1)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(tailwindcss@4.3.3)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.5
+        version: 4.6.5
     devDependencies:
       '@eslint/eslintrc':
         specifier: 3.3.5
@@ -2414,37 +2414,37 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.5:
+    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
 
 snapshots:
 
-  '@ai-sdk/anthropic@3.0.128(zod@4.4.3)':
+  '@ai-sdk/anthropic@3.0.128(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.57(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 4.0.57(zod@4.6.5)
+      zod: 4.6.5
 
-  '@ai-sdk/gateway@3.0.211(zod@4.4.3)':
+  '@ai-sdk/gateway@3.0.211(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.57(zod@4.4.3)
+      '@ai-sdk/provider-utils': 4.0.57(zod@4.6.5)
       '@vercel/oidc': 3.2.0
-      zod: 4.4.3
+      zod: 4.6.5
 
-  '@ai-sdk/openai@3.0.124(zod@4.4.3)':
+  '@ai-sdk/openai@3.0.124(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.57(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 4.0.57(zod@4.6.5)
+      zod: 4.6.5
 
-  '@ai-sdk/provider-utils@4.0.57(zod@4.4.3)':
+  '@ai-sdk/provider-utils@4.0.57(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.18
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.0.8
       undici: 6.29.0
-      zod: 4.4.3
+      zod: 4.6.5
 
   '@ai-sdk/provider@3.0.18':
     dependencies:
@@ -3142,13 +3142,13 @@ snapshots:
 
   acorn@8.16.0: {}
 
-  ai@6.0.302(zod@4.4.3):
+  ai@6.0.302(zod@4.6.5):
     dependencies:
-      '@ai-sdk/gateway': 3.0.211(zod@4.4.3)
+      '@ai-sdk/gateway': 3.0.211(zod@4.6.5)
       '@ai-sdk/provider': 3.0.18
-      '@ai-sdk/provider-utils': 4.0.57(zod@4.4.3)
+      '@ai-sdk/provider-utils': 4.0.57(zod@4.6.5)
       '@opentelemetry/api': 1.9.0
-      zod: 4.4.3
+      zod: 4.6.5
 
   ajv@6.14.0:
     dependencies:
@@ -3633,8 +3633,8 @@ snapshots:
       '@babel/parser': 7.28.5
       eslint: 10.12.0(jiti@2.7.0)
       hermes-parser: 0.25.1
-      zod: 4.4.3
-      zod-validation-error: 4.0.2(zod@4.4.3)
+      zod: 4.6.5
+      zod-validation-error: 4.0.2(zod@4.6.5)
     transitivePeerDependencies:
       - supports-color
 
@@ -4891,8 +4891,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-validation-error@4.0.2(zod@4.4.3):
+  zod-validation-error@4.0.2(zod@4.6.5):
     dependencies:
-      zod: 4.4.3
+      zod: 4.6.5
 
-  zod@4.4.3: {}
+  zod@4.6.5: {}
