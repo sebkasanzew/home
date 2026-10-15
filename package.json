@@ -14,7 +14,7 @@
     "@ai-sdk/openai": "4.0.93",
     "@radix-ui/react-slot": "1.5.0",
     "@uploadthing/react": "7.3.3",
-    "ai": "7.0.140",
+    "ai": "7.0.141",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "lucide-react": "1.57.0",
