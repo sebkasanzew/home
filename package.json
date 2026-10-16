@@ -10,7 +10,7 @@
     "test": "pnpm exec playwright test"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "4.0.80",
+    "@ai-sdk/anthropic": "4.0.81",
     "@ai-sdk/openai": "4.0.94",
     "@radix-ui/react-slot": "1.5.0",
     "@uploadthing/react": "7.3.3",
