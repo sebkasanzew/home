@@ -1,0 +1,8 @@
+minimumReleaseAge: 0
+allowBuilds:
+  msgpackr-extract: false
+  msw: false
+peerDependencyRules:
+  allowedVersions:
+    eslint: "10"
+    typescript: "7"

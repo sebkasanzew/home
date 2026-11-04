@@ -1,5 +1,5 @@
 export async function createHandlers() {
-  const { http } = await import('msw/core/http');
+  const { http } = await import('msw');
 
   return [
     http.post('https://api.anthropic.com/v1/messages', () => {
@@ -25,6 +25,14 @@ export async function createHandlers() {
       return new Response(JSON.stringify(body), {
         status: 200,
         headers: { 'Content-Type': 'application/json' },
+      });
+    }),
+    http.get('https://utfs.io/f/:key', () => {
+      const pngBase64 =
+        'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==';
+      return new Response(Buffer.from(pngBase64, 'base64'), {
+        status: 200,
+        headers: { 'Content-Type': 'image/png' },
       });
     }),
   ];
