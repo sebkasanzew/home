@@ -4,7 +4,7 @@ export async function register() {
     const { makeServer } = await import('./mocks/server');
     const server = await makeServer();
     server.listen({
-      onUnhandledRequest: 'bypass',
+      onUnhandledFrame: 'bypass',
     });
     console.log('MSW server listening');
   }
