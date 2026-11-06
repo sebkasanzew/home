@@ -258,8 +258,8 @@ importers:
         specifier: 16.4.5
         version: 16.4.5(@typescript-eslint/parser@8.71.1(eslint@10.14.0(jiti@2.7.0))(typescript@7.0.2))(eslint@10.14.0(jiti@2.7.0))(typescript@7.0.2)
       msw:
-        specifier: 3.0.3
-        version: 3.0.3(@types/node@26.6.6)(graphql@16.13.2)(typescript@7.0.2)
+        specifier: 3.0.4
+        version: 3.0.4(@types/node@26.6.6)(graphql@16.13.2)(typescript@7.0.2)
       postcss:
         specifier: 8.5.32
         version: 8.5.32
@@ -2084,8 +2084,8 @@ packages:
   msgpackr@1.11.8:
     resolution: {integrity: sha512-bC4UGzHhVvgDNS7kn9tV8fAucIYUBuGojcaLiz7v+P63Lmtm0Xeji8B/8tYKddALXxJLpwIeBmUN3u64C4YkRA==}
 
-  msw@3.0.3:
-    resolution: {integrity: sha512-hsXUCt2gK12q1IUBY9VmMun+yC60eEpVzegAFN5aGZbXhrGqtgPARVWn2ew4mezYvk1G8yhFha9myGSyRyRGWg==}
+  msw@3.0.4:
+    resolution: {integrity: sha512-lrILj+WEoJ4pp3SZHdEDnnZvP6jfWrNua+v2jgXz82RAaATAVqOqMNMxj2n2TUMNR9JP/eWG5tBry3mKnxPNbA==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
@@ -4524,7 +4524,7 @@ snapshots:
     optionalDependencies:
       msgpackr-extract: 3.0.3
 
-  msw@3.0.3(@types/node@26.6.6)(graphql@16.13.2)(typescript@7.0.2):
+  msw@3.0.4(@types/node@26.6.6)(graphql@16.13.2)(typescript@7.0.2):
     dependencies:
       '@inquirer/confirm': 6.0.11(@types/node@26.6.6)
       '@msw/url': 0.1.2
