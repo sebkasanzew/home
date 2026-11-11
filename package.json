@@ -42,7 +42,7 @@
     "@typescript/typescript6": "6.0.2",
     "eslint": "10.14.0",
     "eslint-config-next": "16.4.6",
-    "msw": "3.0.4",
+    "msw": "3.0.5",
     "postcss": "8.5.32",
     "tailwindcss": "4.3.5",
     "typescript": "7.0.2"
