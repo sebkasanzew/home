@@ -188,8 +188,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1
       lucide-react:
-        specifier: 1.72.0
-        version: 1.72.0(@types/react@19.3.0)(react@19.3.1)
+        specifier: 1.73.0
+        version: 1.73.0(@types/react@19.3.0)(react@19.3.1)
       next:
         specifier: 16.4.6
         version: 16.4.6(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(@playwright/test@1.65.1)(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -286,12 +286,6 @@ packages:
 
   '@ai-sdk/openai@4.0.118':
     resolution: {integrity: sha512-pBsFeB+IudrX96P0ic9AO/1NPnfB6IyoS2B2pnhBJ/Ovt4bsvAmBOPeUxwEfYbQyfetJdVFep9sfYX42uVX3SQ==}
-    engines: {node: '>=22'}
-    peerDependencies:
-      zod: ^3.25.76 || ^4.1.8
-
-  '@ai-sdk/provider-utils@5.0.80':
-    resolution: {integrity: sha512-WJ/eiRiBUWbuIBX8v2+U4FssBFskNo4z9TnzEwqTtSQ56TF6H2g/sPkOq0SDMz9yY9u5uOT+tEq28CBUTWVNlA==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2046,8 +2040,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-react@1.72.0:
-    resolution: {integrity: sha512-fbF5i1GU8GODETa3Q7rXqrJrcx3iPYrQtxthom103zGx+Z0BGwKYAW9s+9435ohYJ7hQm0av0PoZcqI1CRwNrg==}
+  lucide-react@1.73.0:
+    resolution: {integrity: sha512-fVOzGviL9mTfHenG1PbCfIceavyGlnpYNSYr+aGZHLRymAJ7DTP6KHuqt0uBkCKAoenr1UVkwSbDIYt2xIesEQ==}
     peerDependencies:
       '@types/react': '*'
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -2700,14 +2694,6 @@ snapshots:
     dependencies:
       '@ai-sdk/provider': 4.0.38
       '@ai-sdk/provider-utils': 5.0.81(zod@4.6.7)
-      zod: 4.6.7
-
-  '@ai-sdk/provider-utils@5.0.80(zod@4.6.7)':
-    dependencies:
-      '@ai-sdk/provider': 4.0.38
-      '@standard-schema/spec': 1.1.0
-      '@workflow/serde': 4.1.0
-      eventsource-parser: 3.0.8
       zod: 4.6.7
 
   '@ai-sdk/provider-utils@5.0.81(zod@4.6.7)':
@@ -4486,7 +4472,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@1.72.0(@types/react@19.3.0)(react@19.3.1):
+  lucide-react@1.73.0(@types/react@19.3.0)(react@19.3.1):
     dependencies:
       react: 19.3.1
     optionalDependencies:
